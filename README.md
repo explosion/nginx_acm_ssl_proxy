@@ -15,6 +15,8 @@ There are some additional environmental variables you can set-
 
 * `DEBUG` - when set to "true" logging will be turned up and environmental variables will be printed on launch.
 
+* `WEBSOCKET_PATH` and `WEBSOCKET_BACKEND_PATH` allow you to enable websockets for a particular path if your application needs them.
+
 ## Changing the nginx default configuration
 
 The `default.conf` we use is different than the one shipped by nginx in two ways-
