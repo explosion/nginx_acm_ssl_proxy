@@ -1,4 +1,4 @@
-name: Push to ECR
+name: Push Websockets branch to ECR
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: "Create and Push Image"
+      - name: "Create and Push Websockets Image"
         uses: tedivm/action-ecr-publish@v1
         with:
           aws_region: "eu-central-1"
